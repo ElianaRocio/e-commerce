@@ -1,0 +1,79 @@
+$my-light-pink: tint-color($my-pink, 40%);
+$my-dark-pink: shade-color($my-pink, 60%);
+$my-light-purple: tint-color($my-purple, 20%);
+$my-dark-purple: shade-color($my-purple, 40%);
+$my-lighter-pink: tint-color($my-pink, 95%);
+$my-lighter-purple: tint-color($my-purple, 95%);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');//texto
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');//titulo
+
+
+
+
+
+.App{
+  display:block;
+}
+.barra{
+  color:white;
+  font-size: 17px;  
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+   }
+.fondo{
+  background-color: $my-purple;
+}
+.icono{
+  color:white;
+  font-size:30px;
+}
+.texto{
+  color:white;
+  font-size: medium;
+  font-family: 'Quicksand', sans-serif;
+}
+.texto1{
+  color:$my-dark-pink;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.fondo3{
+  background-image: url('../../images/fondo.png');
+}
+.fondo2{
+  background-color: $my-pink;
+}
+.texto2{
+  color:$my-dark-purple;
+  font-size: 15px;  
+  font-family: 'Quicksand', sans-serif;
+
+}
+.texto3{
+  color:$my-pink;
+  font-size: 15px;  
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.titulo{
+  color: $my-light-purple;
+  background-color: white;
+  opacity:0.8;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;  
+}
+.titulo1{
+  color: white;
+  background-color: $my-pink;
+  opacity:0.8;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;  
+}
+
+
